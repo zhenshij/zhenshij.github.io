@@ -133,5 +133,8 @@ body {
   font-size: smaller;
 }
 
+.container:not(.is-max-desktop):not(.is-max-widescreen) {
+    max-width: 1000px;
+}
 
 
